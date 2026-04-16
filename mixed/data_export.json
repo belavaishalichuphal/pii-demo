@@ -1,0 +1,47 @@
+{
+  "export_id": "exp_20260310_001",
+  "generated_at": "2026-03-10T09:00:00Z",
+  "summary": {
+    "total_records": 4,
+    "clean_records": 2,
+    "flagged_records": 2
+  },
+  "records": [
+    {
+      "record_id": "rec_001",
+      "type": "order",
+      "status": "completed",
+      "amount_usd": 79.99,
+      "product_sku": "BX-PRO-002",
+      "note": "No PII in this record"
+    },
+    {
+      "record_id": "rec_002",
+      "type": "support_ticket",
+      "status": "resolved",
+      "customer_name": "Oliver Hayes",
+      "customer_email": "oliver.hayes@gmail.com",
+      "customer_phone": "929-555-6612",
+      "note": "PII violation: name, email, phone present"
+    },
+    {
+      "record_id": "rec_003",
+      "type": "invoice",
+      "invoice_number": "INV-2026-00441",
+      "amount_usd": 199.99,
+      "due_date": "2026-04-01",
+      "note": "No PII — invoice metadata only"
+    },
+    {
+      "record_id": "rec_004",
+      "type": "refund_request",
+      "status": "pending",
+      "customer_name": "Aisha Okafor",
+      "customer_ssn": "509-62-8814",
+      "customer_dob": "1994-02-28",
+      "billing_address": "2201 Peachtree Rd, Atlanta, GA 30309",
+      "credit_card": "5425-2334-3010-9903",
+      "note": "PII violation: name, SSN, DOB, address, card number present"
+    }
+  ]
+}

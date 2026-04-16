@@ -1,0 +1,6 @@
+id,full_name,email,phone,ssn,date_of_birth,address,city,state,zip,credit_card,card_expiry
+1,James Carter,james.carter@gmail.com,512-555-3391,289-47-6610,1985-03-14,"101 Elm Street",Dallas,TX,75201,4916-3829-1047-2200,11/26
+2,Priya Nair,priya.nair@hotmail.com,(408) 555-9920,573-21-8834,1992-07-29,"22 Silicon Way",San Jose,CA,95101,5412-7534-9901-0033,03/28
+3,Tom Brennan,t.brennan@yahoo.com,617-555-0044,118-66-4490,1979-11-02,"88 Harbor Rd",Boston,MA,02101,3714-496353-98431,07/25
+4,Fatima Al-Hassan,fatima.h@outlook.com,202-555-7712,632-80-3317,1990-05-18,"3300 K Street NW",Washington,DC,20007,4532-0152-4710-3391,01/27
+5,Leo Russo,leorusso@icloud.com,718-555-6601,445-93-0028,1988-09-30,"14 Flatbush Ave",Brooklyn,NY,11201,5500-0055-5555-4444,06/29

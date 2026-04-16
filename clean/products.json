@@ -1,0 +1,29 @@
+{
+  "products": [
+    {
+      "id": "prod_001",
+      "name": "Starter Plan",
+      "sku": "BX-START-001",
+      "price_usd": 29.99,
+      "category": "subscription",
+      "available": true
+    },
+    {
+      "id": "prod_002",
+      "name": "Professional Plan",
+      "sku": "BX-PRO-002",
+      "price_usd": 79.99,
+      "category": "subscription",
+      "available": true
+    },
+    {
+      "id": "prod_003",
+      "name": "Enterprise Plan",
+      "sku": "BX-ENT-003",
+      "price_usd": 199.99,
+      "category": "subscription",
+      "available": true
+    }
+  ],
+  "updated_at": "2026-01-15T00:00:00Z"
+}

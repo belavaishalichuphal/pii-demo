@@ -1,0 +1,22 @@
+app:
+  name: brix-demo
+  env: staging
+  debug: false
+  log_level: info
+
+database:
+  host: db.internal
+  port: 5432
+  name: brix_db
+  pool_size: 10
+  timeout: 30
+
+cache:
+  backend: redis
+  ttl: 3600
+  max_connections: 50
+
+feature_flags:
+  enable_pii_scanning: true
+  enable_audit_log: true
+  enable_rate_limiting: true

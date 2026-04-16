@@ -1,0 +1,28 @@
+# WARNING: This file intentionally contains PII/secrets violations for demo purposes.
+
+database:
+  host: prod-db.company.internal
+  port: 5432
+  name: customers_prod
+  user: admin
+  password: Sup3rS3cr3tP@ssw0rd!
+
+admin_contact:
+  name: David Park
+  email: d.park@company.com
+  phone: "646-555-8830"
+  emergency_cell: "646-555-0017"
+
+billing_contact:
+  name: Susan Wright
+  email: susan.wright@company.com
+  ssn: "401-55-7729"
+  credit_card: "4532-8819-2244-3301"
+  card_cvv: "847"
+  card_expiry: "09/27"
+
+smtp:
+  host: smtp.company.com
+  port: 587
+  user: noreply@company.com
+  password: smtp_T0k3n_xyz_9921
