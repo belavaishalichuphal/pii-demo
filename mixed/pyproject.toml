@@ -1,0 +1,4 @@
+[project]
+name = "pii-demo-mixed"
+version = "0.1.0"
+description = "Sample component with mixed PII — some files clean, some with violations"

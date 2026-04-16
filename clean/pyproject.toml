@@ -1,0 +1,4 @@
+[project]
+name = "pii-demo-clean"
+version = "0.1.0"
+description = "Sample component with no PII — should pass all compliance checks"

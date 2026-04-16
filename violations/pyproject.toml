@@ -1,0 +1,4 @@
+[project]
+name = "pii-demo-violations"
+version = "0.1.0"
+description = "Sample component with intentional PII violations — should be blocked by compliance checks"
