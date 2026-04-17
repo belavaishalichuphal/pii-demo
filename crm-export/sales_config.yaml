@@ -1,0 +1,35 @@
+# CRM Sales Configuration — no PII
+# Defines scoring rules, routing logic, and integration settings.
+
+lead_scoring:
+  thresholds:
+    hot: 80
+    warm: 50
+    cold: 0
+  signals:
+    page_views: 5
+    demo_requested: 30
+    pricing_page_visit: 20
+    email_opened: 2
+    email_clicked: 8
+
+routing:
+  round_robin: true
+  territory_based: false
+  overflow_rep_id: rep_fallback_001
+
+integrations:
+  salesforce:
+    sync_interval_minutes: 15
+    object_types: [Lead, Contact, Opportunity, Account]
+  slack:
+    notify_on_close: true
+    channel: "#sales-wins"
+
+pipeline_stages:
+  - prospect
+  - qualified
+  - proposal
+  - negotiation
+  - closed_won
+  - closed_lost

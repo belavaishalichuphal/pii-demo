@@ -1,0 +1,4 @@
+[project]
+name = "pii-demo-partner-contacts"
+version = "0.1.0"
+description = "Partner directory component — company profiles are clean, contact records contain PII"

@@ -1,0 +1,30 @@
+# HR Onboarding Configuration — no PII
+# Defines workflow stages, required documents, and system defaults.
+
+workflow:
+  stages:
+    - name: pre_hire
+      days_before_start: 7
+      tasks: [send_welcome_email, provision_laptop, create_accounts]
+    - name: day_one
+      tasks: [id_verification, policy_acknowledgement, equipment_pickup]
+    - name: first_week
+      tasks: [team_intro, security_training, tool_walkthrough]
+
+document_requirements:
+  - type: govt_id
+    accepted_forms: [passport, drivers_license, national_id]
+  - type: tax_form
+    accepted_forms: [w4, i9]
+  - type: direct_deposit
+    accepted_forms: [voided_check, bank_letter]
+
+notifications:
+  hr_inbox: hr-ops@company.internal
+  it_inbox: it-provisioning@company.internal
+  slack_channel: "#new-hires"
+
+defaults:
+  probation_days: 90
+  pto_accrual_start: 30
+  benefits_eligibility_days: 60

@@ -1,0 +1,20 @@
+{
+  "report_period": "Q1-2026",
+  "generated_at": "2026-04-01T08:00:00Z",
+  "pipeline": {
+    "total_opportunities": 312,
+    "stages": {
+      "prospect": 98,
+      "qualified": 74,
+      "proposal": 51,
+      "negotiation": 43,
+      "closed_won": 31,
+      "closed_lost": 15
+    },
+    "total_pipeline_value_usd": 4820000,
+    "avg_deal_size_usd": 15449,
+    "avg_sales_cycle_days": 38
+  },
+  "win_rate_pct": 67.4,
+  "quota_attainment_pct": 91.2
+}

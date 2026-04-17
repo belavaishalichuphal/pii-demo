@@ -1,0 +1,4 @@
+[project]
+name = "pii-demo-hr-onboarding"
+version = "0.1.0"
+description = "HR onboarding component — contains both clean config and employee PII records"

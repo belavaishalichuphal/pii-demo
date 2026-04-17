@@ -1,0 +1,6 @@
+record_id,customer_name,email,phone,card_number,card_expiry,cvv,billing_address,amount_usd,status,date
+PAY-5501,Hannah Brooks,hannah.brooks@gmail.com,415-555-2291,4916-3344-8821-9901,08/27,412,"901 Castro St, San Francisco, CA 94114",79.99,succeeded,2026-03-01
+PAY-5502,Carlos Mendez,cmendez@outlook.com,(305) 555-7718,5412-7890-3344-0011,11/26,289,"220 Brickell Ave, Miami, FL 33131",199.99,succeeded,2026-03-01
+PAY-5503,Grace Liu,grace.liu.nyc@icloud.com,212-555-9930,4532-0044-1199-7712,03/28,551,"55 Water St, New York, NY 10041",29.99,failed,2026-03-01
+PAY-5504,Anton Petrov,a.petrov@yahoo.com,617-555-4481,3714-496353-21009,06/25,734,"200 State St, Boston, MA 02109",79.99,succeeded,2026-03-02
+PAY-5505,Imani Jackson,imani.j@gmail.com,(404) 555-6622,4916-1100-3382-5519,09/27,198,"1 Peachtree St, Atlanta, GA 30303",199.99,succeeded,2026-03-02

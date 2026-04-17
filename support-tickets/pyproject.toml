@@ -1,0 +1,4 @@
+[project]
+name = "pii-demo-support-tickets"
+version = "0.1.0"
+description = "Support ticket component — issue metadata is clean, customer tickets contain PII"

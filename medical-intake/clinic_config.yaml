@@ -1,0 +1,40 @@
+# Clinic Configuration — no PII
+# Defines appointment types, room assignments, and notification settings.
+
+clinic:
+  name: Riverside Health Center
+  npi: "1234567890"
+  timezone: America/Chicago
+
+appointment_types:
+  - code: GP
+    label: General Practice
+    duration_minutes: 20
+  - code: SPEC
+    label: Specialist Consultation
+    duration_minutes: 45
+  - code: LAB
+    label: Lab Work
+    duration_minutes: 15
+  - code: IMG
+    label: Imaging
+    duration_minutes: 30
+
+rooms:
+  exam: [101, 102, 103, 104]
+  lab: [201]
+  imaging: [301, 302]
+
+notifications:
+  reminder_hours_before: [48, 2]
+  no_show_followup_hours: 4
+  sms_enabled: true
+  email_enabled: true
+
+insurance_accepted:
+  - BlueCross BlueShield
+  - Aetna
+  - Cigna
+  - United Healthcare
+  - Medicare
+  - Medicaid

@@ -1,0 +1,4 @@
+[project]
+name = "pii-demo-job-applications"
+version = "0.1.0"
+description = "Recruitment component — job postings are clean, applicant records contain PII"

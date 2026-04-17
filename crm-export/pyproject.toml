@@ -1,0 +1,4 @@
+[project]
+name = "pii-demo-crm-export"
+version = "0.1.0"
+description = "CRM export component — pipeline metrics are clean, contact records contain PII"

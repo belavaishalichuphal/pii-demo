@@ -1,0 +1,31 @@
+# Billing Configuration — no PII
+# Defines invoice numbering, tax rules, and payment gateway settings.
+
+invoicing:
+  prefix: "INV"
+  sequence_start: 10000
+  payment_terms_days: 30
+  currency_default: USD
+  supported_currencies: [USD, EUR, GBP, CAD, AUD]
+
+tax:
+  default_rate_pct: 0.0
+  tax_exempt_categories: [nonprofit, edu]
+  regions_with_tax:
+    - region: CA
+      rate_pct: 8.75
+    - region: NY
+      rate_pct: 8.875
+    - region: TX
+      rate_pct: 6.25
+
+payment_gateways:
+  primary: stripe
+  fallback: braintree
+  retry_attempts: 3
+  retry_delay_seconds: 300
+
+dunning:
+  reminder_days: [3, 7, 14]
+  suspend_after_days: 30
+  final_notice_days: 45

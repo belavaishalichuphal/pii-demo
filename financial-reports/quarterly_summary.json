@@ -1,0 +1,27 @@
+{
+  "report": "Q1-2026 Financial Summary",
+  "generated_at": "2026-04-05T00:00:00Z",
+  "revenue": {
+    "total_usd": 3410220,
+    "by_segment": {
+      "smb": 1020400,
+      "mid_market": 1190300,
+      "enterprise": 1199520
+    },
+    "growth_yoy_pct": 41.2
+  },
+  "expenses": {
+    "total_usd": 2880100,
+    "by_cost_center": {
+      "CC-ENG": 1041000,
+      "CC-SALES": 880400,
+      "CC-OPS": 612300,
+      "CC-GA": 346400
+    }
+  },
+  "ebitda_usd": 530120,
+  "ebitda_margin_pct": 15.5,
+  "burn_rate_monthly_usd": 960033,
+  "cash_runway_months": 22,
+  "note": "Aggregate financial data only — no account holder PII in this file"
+}

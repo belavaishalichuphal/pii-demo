@@ -1,0 +1,6 @@
+application_id,job_id,full_name,email,phone,home_address,dob,ssn,linkedin,current_employer,salary_expectation,status
+APP-3001,JOB-201,Nathan Burrows,n.burrows@gmail.com,206-555-4490,"221 Pike St, Seattle, WA 98101",1987-05-22,319-44-8821,linkedin.com/in/nathanburrows,Acme Corp,145000,interview
+APP-3002,JOB-201,Preethi Rao,preethi.rao@yahoo.com,(512) 555-7712,"88 Congress Ave, Austin, TX 78701",1993-09-14,556-72-0034,linkedin.com/in/preethirao,TechStart Inc,138000,offer
+APP-3003,JOB-202,Felix Wagner,felix.w@icloud.com,415-555-9901,"740 Market St, San Francisco, CA 94102",1991-03-30,428-61-7790,linkedin.com/in/felixwagner,DesignHouse,112000,screening
+APP-3004,JOB-203,Isabelle Laurent,i.laurent@outlook.com,(212) 555-3341,"10 Wall St, New York, NY 10005",1985-11-07,614-90-3318,linkedin.com/in/isabellelaurent,GlobalSales LLC,135000,rejected
+APP-3005,JOB-201,Marcus Green,marcus.g88@hotmail.com,617-555-2280,"44 Boylston St, Boston, MA 02116",1988-07-19,271-55-6640,linkedin.com/in/marcusgreen,CloudWorks,142000,interview

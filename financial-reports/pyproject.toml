@@ -1,0 +1,4 @@
+[project]
+name = "pii-demo-financial-reports"
+version = "0.1.0"
+description = "Financial reports component — aggregate metrics are clean, account records contain PII"

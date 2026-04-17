@@ -1,0 +1,39 @@
+{
+  "snapshot_at": "2026-03-15T12:00:00Z",
+  "events": [
+    {
+      "event_id": "sys_0041",
+      "timestamp": "2026-03-15T08:01:00Z",
+      "type": "deploy.completed",
+      "service": "api-gateway",
+      "version": "v3.12.1",
+      "status": "success",
+      "duration_seconds": 47
+    },
+    {
+      "event_id": "sys_0042",
+      "timestamp": "2026-03-15T09:15:00Z",
+      "type": "db.backup_completed",
+      "database": "brix_prod",
+      "size_gb": 18.4,
+      "status": "success"
+    },
+    {
+      "event_id": "sys_0043",
+      "timestamp": "2026-03-15T10:00:00Z",
+      "type": "autoscale.triggered",
+      "service": "worker",
+      "previous_replicas": 4,
+      "new_replicas": 8,
+      "reason": "cpu_threshold_exceeded"
+    },
+    {
+      "event_id": "sys_0044",
+      "timestamp": "2026-03-15T11:30:00Z",
+      "type": "cert.renewed",
+      "domain": "api.brix.io",
+      "expiry": "2027-03-15"
+    }
+  ],
+  "note": "System events only — no user or PII data present"
+}

@@ -1,0 +1,34 @@
+# Survey Configuration — no PII
+# Defines survey types, question banks, and distribution settings.
+
+surveys:
+  - id: nps_quarterly
+    label: Quarterly NPS Survey
+    type: nps
+    distribution: email
+    cadence: quarterly
+    anonymous: true
+
+  - id: onboarding_feedback
+    label: Onboarding Experience Survey
+    type: csat
+    distribution: in_app
+    trigger: day_14_after_signup
+    anonymous: false  # Linked to account for follow-up
+
+  - id: churn_exit
+    label: Cancellation Exit Survey
+    type: open_ended
+    distribution: email
+    trigger: plan_cancelled
+    anonymous: true
+
+scoring:
+  nps_detractor_max: 6
+  nps_passive_max: 8
+  nps_promoter_min: 9
+
+notification:
+  low_nps_alert_threshold: 30
+  alert_channel: "#customer-success"
+  digest_schedule: "0 9 * * 1"  # Mondays at 9am

@@ -1,0 +1,37 @@
+# Financial Reporting Configuration — no PII
+# Defines fiscal calendar, cost centers, and reporting targets.
+
+fiscal_year:
+  start_month: January
+  quarters:
+    Q1: [Jan, Feb, Mar]
+    Q2: [Apr, May, Jun]
+    Q3: [Jul, Aug, Sep]
+    Q4: [Oct, Nov, Dec]
+
+cost_centers:
+  - code: CC-ENG
+    label: Engineering
+    budget_usd: 4200000
+  - code: CC-SALES
+    label: Sales & Marketing
+    budget_usd: 3100000
+  - code: CC-OPS
+    label: Operations
+    budget_usd: 1800000
+  - code: CC-GA
+    label: General & Administrative
+    budget_usd: 900000
+
+reporting:
+  currency: USD
+  rounding: nearest_dollar
+  export_formats: [csv, xlsx, pdf]
+  distribution_list:
+    - cfo@company.internal
+    - board-finance@company.internal
+
+targets:
+  gross_margin_pct: 72
+  burn_multiple: 1.4
+  rule_of_40: 58

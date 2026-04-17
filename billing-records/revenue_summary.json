@@ -1,0 +1,22 @@
+{
+  "period": "2026-03",
+  "generated_at": "2026-04-01T00:00:00Z",
+  "revenue": {
+    "gross_usd": 284190.50,
+    "refunds_usd": 3420.00,
+    "net_usd": 280770.50,
+    "by_plan": {
+      "starter": 48220.50,
+      "professional": 112340.00,
+      "enterprise": 120210.00
+    }
+  },
+  "transactions": {
+    "total": 3512,
+    "succeeded": 3471,
+    "failed": 41,
+    "failure_rate_pct": 1.17
+  },
+  "mrr_usd": 280770.50,
+  "arr_usd": 3369246.00
+}

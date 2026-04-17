@@ -1,0 +1,6 @@
+contact_id,partner_id,full_name,work_email,personal_email,mobile,home_address,dob,role
+PCT-001,prt_001,William Ashford,w.ashford@apex-integrations.example,william.ashford@gmail.com,+44-20-5550-8821,"12 Baker St, London, UK W1U 3BW",1972-03-19,Partner Director
+PCT-002,prt_001,Mei Liang,m.liang@apex-integrations.example,meiliang1985@yahoo.com,+44-20-5550-4490,"5 Canary Wharf, London, UK E14 5AB",1985-07-08,Technical Lead
+PCT-003,prt_002,Tyler Brooks,t.brooks@northstar.example,tylerbrooks77@icloud.com,512-555-3391,"900 Congress Ave, Austin, TX 78701",1977-11-22,Account Manager
+PCT-004,prt_002,Samantha Reeves,s.reeves@northstar.example,sam.reeves.personal@gmail.com,(512) 555-7730,"401 W 2nd St, Austin, TX 78701",1990-05-15,Solutions Engineer
+PCT-005,prt_003,Hiroshi Tanaka,h.tanaka@cascade-sys.example,hiroshi.t@icloud.com,+81-3-5550-9901,"3-1 Marunouchi, Chiyoda, Tokyo 100-0005",1983-09-04,Regional Manager

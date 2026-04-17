@@ -1,0 +1,43 @@
+{
+  "postings": [
+    {
+      "job_id": "JOB-201",
+      "title": "Senior Backend Engineer",
+      "department": "Engineering",
+      "location": "Remote (US)",
+      "type": "full_time",
+      "level": "senior",
+      "salary_range_usd": [130000, 165000],
+      "posted_at": "2026-03-15",
+      "closes_at": "2026-04-30",
+      "skills_required": ["Python", "PostgreSQL", "Kubernetes"],
+      "status": "open"
+    },
+    {
+      "job_id": "JOB-202",
+      "title": "Product Designer",
+      "department": "Design",
+      "location": "San Francisco, CA",
+      "type": "full_time",
+      "level": "mid",
+      "salary_range_usd": [100000, 125000],
+      "posted_at": "2026-03-20",
+      "closes_at": "2026-05-01",
+      "skills_required": ["Figma", "User Research", "Prototyping"],
+      "status": "open"
+    },
+    {
+      "job_id": "JOB-203",
+      "title": "Enterprise Account Executive",
+      "department": "Sales",
+      "location": "New York, NY",
+      "type": "full_time",
+      "level": "senior",
+      "salary_range_usd": [110000, 140000],
+      "posted_at": "2026-04-01",
+      "closes_at": "2026-05-15",
+      "skills_required": ["SaaS sales", "Salesforce", "Enterprise negotiation"],
+      "status": "open"
+    }
+  ]
+}

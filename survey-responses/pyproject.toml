@@ -1,0 +1,4 @@
+[project]
+name = "pii-demo-survey-responses"
+version = "0.1.0"
+description = "Survey component — aggregate results are clean, individual responses contain PII"

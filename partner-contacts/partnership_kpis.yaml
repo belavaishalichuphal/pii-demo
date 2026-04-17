@@ -1,0 +1,39 @@
+# Partnership KPIs — no PII
+# Aggregate performance metrics by tier and region.
+
+kpis:
+  period: Q1-2026
+
+  by_tier:
+    platinum:
+      partners: 3
+      avg_nps: 72
+      renewals_due: 1
+      at_risk: 0
+    gold:
+      partners: 11
+      avg_nps: 58
+      renewals_due: 3
+      at_risk: 1
+    silver:
+      partners: 28
+      avg_nps: 44
+      renewals_due: 9
+      at_risk: 4
+
+  by_region:
+    AMER:
+      partners: 19
+      total_arr_usd: 2100000
+    EMEA:
+      partners: 14
+      total_arr_usd: 1840000
+    APAC:
+      partners: 9
+      total_arr_usd: 620000
+
+  overall:
+    total_partners: 42
+    total_arr_usd: 4560000
+    churn_pct: 2.4
+    expansion_pct: 18.7

@@ -1,0 +1,4 @@
+[project]
+name = "pii-demo-medical-intake"
+version = "0.1.0"
+description = "Medical intake component — clinic config is clean, patient forms contain PII"

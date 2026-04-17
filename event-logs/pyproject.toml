@@ -1,0 +1,4 @@
+[project]
+name = "pii-demo-event-logs"
+version = "0.1.0"
+description = "Event log component — system events are clean, user-action logs contain PII"

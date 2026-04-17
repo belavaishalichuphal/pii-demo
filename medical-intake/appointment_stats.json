@@ -1,0 +1,15 @@
+{
+  "report_month": "2026-03",
+  "total_appointments": 1284,
+  "by_type": {
+    "GP": 612,
+    "SPEC": 318,
+    "LAB": 241,
+    "IMG": 113
+  },
+  "no_show_rate_pct": 8.3,
+  "cancellation_rate_pct": 11.7,
+  "avg_wait_time_days": 3.4,
+  "patient_satisfaction_score": 4.4,
+  "note": "Aggregate metrics only — no patient-level data in this file"
+}

@@ -1,0 +1,18 @@
+{
+  "survey_id": "nps_quarterly",
+  "period": "Q1-2026",
+  "total_responses": 1142,
+  "response_rate_pct": 34.8,
+  "nps": {
+    "score": 42,
+    "promoters": 512,
+    "passives": 318,
+    "detractors": 312
+  },
+  "top_themes": {
+    "positive": ["ease of use", "customer support", "integrations"],
+    "negative": ["pricing", "mobile app", "export bugs"]
+  },
+  "csat_avg": 4.3,
+  "note": "Aggregate data only — no individual respondent PII in this file"
+}

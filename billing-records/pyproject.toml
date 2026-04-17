@@ -1,0 +1,4 @@
+[project]
+name = "pii-demo-billing-records"
+version = "0.1.0"
+description = "Billing records component — invoice metadata is clean, payment records contain PII"

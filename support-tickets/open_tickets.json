@@ -1,0 +1,53 @@
+{
+  "exported_at": "2026-04-10T14:30:00Z",
+  "tickets": [
+    {
+      "ticket_id": "TKT-8801",
+      "type": "billing_inquiry",
+      "priority": "p3",
+      "status": "open",
+      "subject": "Overcharged on March invoice",
+      "customer_name": "Rachel Simmons",
+      "customer_email": "rachel.simmons@gmail.com",
+      "customer_phone": "503-555-4412",
+      "account_id": "acc_4421",
+      "body": "Hi, I was charged $199 but I'm on the $79 plan. My card ending in 3301 was billed incorrectly. Full card: 4916-2281-0043-3301, CVV 229, exp 05/27.",
+      "created_at": "2026-04-09T10:15:00Z"
+    },
+    {
+      "ticket_id": "TKT-8802",
+      "type": "technical_issue",
+      "priority": "p2",
+      "status": "in_progress",
+      "subject": "Dashboard not loading",
+      "account_id": "acc_7732",
+      "assignee_id": "agent_012",
+      "created_at": "2026-04-10T09:00:00Z",
+      "note": "No PII — issue is infrastructure related"
+    },
+    {
+      "ticket_id": "TKT-8803",
+      "type": "account_access",
+      "priority": "p1",
+      "status": "in_progress",
+      "subject": "Cannot log in — account locked",
+      "customer_name": "Derek Fontaine",
+      "customer_email": "d.fontaine88@hotmail.com",
+      "customer_ssn_last4": "7741",
+      "customer_dob": "1988-03-22",
+      "home_address": "14 Rue de Rivoli, New Orleans, LA 70112",
+      "created_at": "2026-04-10T11:45:00Z"
+    },
+    {
+      "ticket_id": "TKT-8804",
+      "type": "feature_request",
+      "priority": "p4",
+      "status": "open",
+      "subject": "Add CSV export to reports page",
+      "account_id": "acc_1190",
+      "votes": 47,
+      "created_at": "2026-04-08T16:00:00Z",
+      "note": "No PII — feature request with no customer details"
+    }
+  ]
+}

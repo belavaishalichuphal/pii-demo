@@ -1,0 +1,33 @@
+# Event Log Configuration — no PII
+# Defines log levels, retention policy, and sink destinations.
+
+logging:
+  level: info
+  format: json
+  include_trace_id: true
+  include_request_id: true
+  redact_fields: [password, token, credit_card, ssn]
+
+retention:
+  hot_days: 30
+  warm_days: 90
+  cold_days: 365
+  delete_after_days: 730
+
+sinks:
+  - type: elasticsearch
+    host: logs.internal
+    index_prefix: app-events
+    flush_interval_seconds: 5
+  - type: s3
+    bucket: company-logs-archive
+    prefix: events/
+    compression: gzip
+
+sampling:
+  default_rate: 1.0
+  high_volume_endpoints:
+    - path: /api/health
+      rate: 0.01
+    - path: /api/metrics
+      rate: 0.05

@@ -1,0 +1,38 @@
+{
+  "partners": [
+    {
+      "partner_id": "prt_001",
+      "company_name": "Apex Integrations Ltd",
+      "tier": "platinum",
+      "region": "EMEA",
+      "website": "https://apex-integrations.example",
+      "sla_tier": "enterprise",
+      "contract_start": "2024-01-01",
+      "contract_end": "2026-12-31",
+      "annual_value_usd": 480000
+    },
+    {
+      "partner_id": "prt_002",
+      "company_name": "NorthStar Consulting",
+      "tier": "gold",
+      "region": "AMER",
+      "website": "https://northstar.example",
+      "sla_tier": "professional",
+      "contract_start": "2025-03-01",
+      "contract_end": "2027-02-28",
+      "annual_value_usd": 120000
+    },
+    {
+      "partner_id": "prt_003",
+      "company_name": "Cascade Systems KK",
+      "tier": "silver",
+      "region": "APAC",
+      "website": "https://cascade-sys.example",
+      "sla_tier": "starter",
+      "contract_start": "2025-07-01",
+      "contract_end": "2026-06-30",
+      "annual_value_usd": 36000
+    }
+  ],
+  "note": "Company-level data only — no individual contact PII in this file"
+}

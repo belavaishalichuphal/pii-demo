@@ -1,0 +1,16 @@
+{
+  "snapshot_date": "2026-04-01",
+  "headcount_by_department": {
+    "Engineering": 84,
+    "Product": 22,
+    "Design": 18,
+    "Sales": 47,
+    "Marketing": 31,
+    "Operations": 29,
+    "Finance": 14,
+    "Legal": 9
+  },
+  "total_headcount": 254,
+  "open_roles": 17,
+  "attrition_ytd_pct": 4.2
+}

@@ -1,0 +1,6 @@
+response_id,survey_id,respondent_name,email,phone,dob,nps_score,comment,submitted_at
+RSP-7001,nps_quarterly,Thomas Kirby,t.kirby@gmail.com,617-555-1192,1979-06-03,9,"Great product, very intuitive.",2026-01-15
+RSP-7002,nps_quarterly,Vanessa Cruz,v.cruz.vc@yahoo.com,(312) 555-8841,1985-02-28,4,"Too many bugs in the export feature.",2026-01-16
+RSP-7003,onboarding_feedback,Lena Hoffmann,lena.h@outlook.com,503-555-7700,1991-11-14,8,"Onboarding was smooth but docs could be clearer.",2026-02-01
+RSP-7004,churn_exit,Samuel Obi,s.obi1988@icloud.com,(404) 555-3392,1988-08-22,2,"Pricing was too high for our budget. Moving to a competitor.",2026-02-14
+RSP-7005,nps_quarterly,Claire Fontaine,claire.fontaine@hotmail.com,214-555-0091,1994-04-10,10,"Absolutely love it. Recommended to 3 colleagues already.",2026-01-17

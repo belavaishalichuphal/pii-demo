@@ -1,0 +1,6 @@
+employee_id,full_name,personal_email,phone,ssn,date_of_birth,home_address,start_date,department,salary
+EMP-1001,Jessica Thornton,jessica.thornton@gmail.com,512-555-8821,347-62-9901,1990-04-12,"2204 Birchwood Ln, Austin, TX 78745",2026-02-03,Engineering,115000
+EMP-1002,Marcus Webb,marcus.webb88@yahoo.com,(617) 555-3347,509-14-7723,1988-08-30,"41 Beacon St, Boston, MA 02108",2026-02-10,Product,98000
+EMP-1003,Anika Sharma,anika.s@hotmail.com,408-555-0091,221-77-6634,1994-01-25,"19 Castro St, San Francisco, CA 94114",2026-02-17,Design,92000
+EMP-1004,Derek Okonkwo,d.okonkwo@outlook.com,718-555-4490,678-30-1145,1986-11-08,"330 Flatbush Ave, Brooklyn, NY 11238",2026-03-03,Sales,87000
+EMP-1005,Lily Nakamura,lily.n@icloud.com,(213) 555-7702,193-55-8847,1992-06-19,"822 W 6th St, Los Angeles, CA 90017",2026-03-10,Marketing,89000
